@@ -56,13 +56,15 @@ html {
 }
 
 .header .navbar-nav .nav-item .nav-link{
-    color: black;
+    color: #ffffff;
     padding: 1rem 0.5rem;
     transition: all 0.5s;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .header .navbar-nav .nav-item a:hover{
-    color: #fd4766;
+    color: rgba(44, 142, 222, 1);
 }
 
 .header .buyNow button{
@@ -78,8 +80,8 @@ html {
 }
 
 .header .buyNow button:hover{
-    border: 1px solid #fd4766;
-    background-color: #fd4766;
+    border: 1px solid rgba(44, 142, 222, 1);
+    background-color: rgba(44, 142, 222, 1);
 }
 
 .header .navbar-nav  .nav-item.dropdown .dropdown-menu {
@@ -100,8 +102,8 @@ html {
 }
 
 .header .navbar-nav .nav-item.dropdown .dropdown-menu a:hover{
-    background-color: rgba(253, 71, 102, 0.2);
-    color: #fd4766;
+    background-color: rgba(44, 142, 222, 0.3);
+    color: rgba(44, 142, 222, 1);
 }
 
 /* carousel */
@@ -148,7 +150,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 36, 136, 0.3);
+    background-color: rgba(0, 0, 0, 0.61);
 }
 
 .slide .carousel-inner .carousel-caption{
@@ -157,10 +159,10 @@ html {
 }
 
 .slide button .fa{
-    color: #ff0000;
+    color: rgba(44, 142, 222, 1);
     font-size: 2rem;
     padding: 1rem;
-    border: 1px solid #ff0000;
+    border: 1px solid rgba(44, 142, 222, 1);
     border-radius: 50%;
     background-color: transparent;
     transition: transform 0.7s;
@@ -168,15 +170,15 @@ html {
 
 .slide button .fa.fa-long-arrow-alt-left:hover{
     color: #ffffff;
-    background-color: #ff0000;
-    border: 1px solid #ff0000;
+    background-color: rgba(44, 142, 222, 1);
+    border: 1px solid rgba(44, 142, 222, 1);
     transform: translateX(-1.5rem);
 }
 
 .slide button .fa.fa-long-arrow-alt-right:hover{
     color: #ffffff;
-    background-color: #ff0000;
-    border: 1px solid #ff0000;
+    background-color: rgba(44, 142, 222, 1);
+    border: 1px solid rgba(44, 142, 222, 1);
     transform: translateX(1.5rem);
 }
 
@@ -185,14 +187,14 @@ html {
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 45%;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.753);
 }
 
 .slide .carousel-indicators li.active{
     width: 0.5rem;
     height: 0.5rem;
     background-color: transparent;
-    border: 2px solid #ff0000;
+    border: 2px solid rgba(44, 142, 222, 1);
     transform: scale(1) translateY(7px);
     transition: all 0.5s;
 }
@@ -210,12 +212,12 @@ html {
 }
 
 .slide .carousel-inner .carousel-item .carousel-caption button{
-    background-color: #ff0000;
+    background-color: rgba(44, 142, 222, 1);
     color: #ffffff;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 900;
     letter-spacing: 3px;
-    border: 2px solid #ff0000;
+    border: 2px solid rgba(44, 142, 222, 1);
     padding: 1rem 2rem;
     margin-top: 2rem;
     border-radius: 10rem;
@@ -224,9 +226,10 @@ html {
 }
 
 .slide .carousel-inner .carousel-item .carousel-caption button:hover{
-    border: 2px solid #ff0000;
+    border: 2px solid rgba(44, 142, 222, 1);
     background-color: transparent;
-    color: #ff0000;
+    color: rgba(44, 142, 222, 1);
+    font-weight: 900;
 }
 
 .slide .carousel-inner .carousel-item .carousel-caption, .slide .carousel-inner .carousel-item .carousel-caption h1, .slide .carousel-inner .carousel-item .carousel-caption p{
