@@ -248,7 +248,8 @@ html {
 /* about */
 .about{
     background-image: linear-gradient(to right, rgba(235, 235, 235, 0.918), rgba(44, 142, 222, 0.3), rgba(44, 142, 222, 0.6));
-    margin: 4rem 0;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .about .container{
@@ -344,4 +345,87 @@ html {
 
 .about main .row .col-4 .item:hover img{
     transform: scale(1.1);
+}
+
+/* member */
+.member{
+    background-image: linear-gradient(to right, rgba(235, 235, 235, 0.918), rgba(44, 142, 222, 0.3), rgba(44, 142, 222, 0.6));
+}
+
+.member .container{
+    background-image: url(../image/image-1.png);
+    background-repeat: no-repeat;
+    background-position-y: 7rem;
+    padding: 5rem 0;
+}
+
+.member .container header{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.member .container header h1{
+    font-size: 3rem;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+    color: transparent;
+}
+
+.member .container .row .col-6.quotes{
+    padding-left: 5rem;
+}
+
+.member .container .row .col-6.quotes .quote .tab-content .tab-pane .text{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.member .container .row .col-6.quotes .quote .tab-content .tab-pane p span{
+    color: #0066ff;
+    font-weight: 800;
+}
+
+.member .container .row .col-6.quotes .quote .tab-content .tab-pane p{
+    color: #a1a2a3;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.member .container .row .col-6.image .name{
+    margin: 0;
+}
+
+.member .container .row .col-6.image .name .nav{
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+}
+
+.member .container .row .col-6.image .name .nav .nav-item a{
+    padding: 0;
+    margin: 0.75rem;
+    transition: all 0.5s;
+}
+
+.member .container .row .col-6.image .name .nav .nav-item img{
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+
+.member .container .row .col-6.image .name .nav .nav-item a.active{
+    background-color: transparent;
+    transform: scale(1.1);
+    box-shadow: 0px 8px 8px 0 rgba(0,0,0,0.2)
+}
+
+.member .container .row .col-6.image .name .nav .nav-item a.active img{
+    opacity: 1;
 }
