@@ -150,7 +150,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .slide .carousel-inner .carousel-caption{
@@ -159,10 +159,10 @@ html {
 }
 
 .slide button .fa{
-    color: rgb(132, 200, 255);
+    color: rgb(0, 18, 32);
     font-size: 2rem;
     padding: 1rem;
-    border: 1px solid rgba(44, 142, 222, 1);
+    border: 1px solid rgb(0, 18, 32);;
     border-radius: 50%;
     background-color: transparent;
     transition: transform 0.7s;
@@ -356,7 +356,7 @@ html {
     background-image: url(../image/image-1.png);
     background-repeat: no-repeat;
     background-position-y: 7rem;
-    padding: 5rem 0;
+    padding-bottom: 4rem;
 }
 
 .member .container header{
@@ -373,11 +373,11 @@ html {
     color: transparent;
 }
 
-.member .container .row .col-6.quotes{
+.member .container .row .col-6.introduce{
     padding-left: 5rem;
 }
 
-.member .container .row .col-6.quotes .quote .tab-content .tab-pane .text{
+.member .container .row .col-6.introduce .introduction .tab-content .tab-pane .text{
     color: #000000;
     font-size: 1rem;
     font-weight: 600;
@@ -385,12 +385,12 @@ html {
     text-align: justify;
 }
 
-.member .container .row .col-6.quotes .quote .tab-content .tab-pane p span{
+.member .container .row .col-6.introduce .introduction .tab-content .tab-pane p span{
     color: #0066ff;
     font-weight: 800;
 }
 
-.member .container .row .col-6.quotes .quote .tab-content .tab-pane p{
+.member .container .row .col-6.introduce .introduction .tab-content .tab-pane p{
     color: #a1a2a3;
     font-size: 1rem;
     font-weight: 700;
@@ -428,4 +428,56 @@ html {
 
 .member .container .row .col-6.image .name .nav .nav-item a.active img{
     opacity: 1;
+}
+
+/* team profile */
+.teamProfile{
+    background-image: linear-gradient(to right, rgba(235, 235, 235, 0.918), rgba(44, 142, 222, 0.3), rgba(44, 142, 222, 0.6));
+}
+
+.teamProfile .container{
+    background-image: url(../image/image-1.png);
+    background-repeat: no-repeat;
+    background-position-y: 7rem;
+    padding-bottom: 4rem;
+}
+
+.teamProfile .container header{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.teamProfile .container header h1{
+    font-size: 3rem;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+    color: transparent;
+}
+
+/* navbar */
+.teamProfile .container main .row .profile-navbar .nav a{
+    color: #0066ff;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.teamProfile .container main .row .profile-navbar .nav a.active{
+    color: #ffffff;
+    background-color:rgba(44, 142, 222, 0.6) ;
+}
+
+/* text */
+.teamProfile .container main .row .details .tab-content .tab-pane .tests .item{
+    margin-bottom: 2rem;
+}
+.teamProfile .container main .row .details .tab-content .tab-pane .tests .item .text{
+    margin-bottom: 2rem;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.teamProfile .container main .row .details .tab-content .tab-pane .image img{
+    width: 100%;
 }
