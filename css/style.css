@@ -10,18 +10,18 @@ html {
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: rgba(255, 0, 149, 0.329);
+    background-color: rgba(44, 142, 222, 0.5);
     color: #ffffff;
     cursor: pointer; 
     padding: 15px;
-    border-radius: 10px; 
+    border-radius: 100px; 
     font-size: 18px; 
     behavior: smooth;
     transition: all 0.5s;
   }
 .scrollToTop:hover{
     background-color: #ffffff;
-    color: rgba(255, 0, 149, 0.329);
+    color: rgba(44, 142, 222, 0.5);
 }
 
 /* header */
@@ -212,7 +212,7 @@ html {
 }
 
 .slide .carousel-inner .carousel-item .carousel-caption button{
-    background-color: rgba(44, 142, 222, 1);
+    background-color: rgba(44, 142, 222, 1) ;
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 900;
@@ -221,14 +221,13 @@ html {
     padding: 1rem 2rem;
     margin-top: 2rem;
     border-radius: 10rem;
-    transition: border 0.3s;
-    transition: background-color 0.5s;
+    transition: all 0.5s;
 }
 
 .slide .carousel-inner .carousel-item .carousel-caption button:hover{
     border: 2px solid rgba(44, 142, 222, 1);
-    background-color: transparent;
-    color: rgba(44, 142, 222, 1);
+    background-image: linear-gradient(to right, rgba(235, 235, 235, 0.918), rgba(44, 142, 222, 0.5), rgba(44, 142, 222, 1));
+    color: rgb(0, 54, 99);
     font-weight: 900;
 }
 
@@ -244,4 +243,105 @@ html {
     transform: translateY(50%);
     margin-bottom: 3rem;
     opacity: 1;
+}
+
+/* about */
+.about{
+    background-image: linear-gradient(to right, rgba(235, 235, 235, 0.918), rgba(44, 142, 222, 0.3), rgba(44, 142, 222, 0.6));
+    margin: 4rem 0;
+}
+
+.about .container{
+    text-align: center;
+}
+
+.about header{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.about header h1{
+    font-size: 3rem;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+    color: transparent;
+}
+
+.about main .row .col-4 .item{
+    position: relative;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.about main .row .col-4 .item img{
+    display: block;
+    width: 100%;
+    height: 20rem;
+    transform: scale(1);
+    transition: all 0.7s;
+}
+
+.about main .row .col-4 .item .text{
+    width: 100%;
+    padding: 0 2rem;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: all 0.5s;
+}
+
+
+.about main .row .col-4 .item .text h1{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 1rem 0;
+    transition: all 0.5s;
+}
+
+.about main .row .col-4 .item .text button{
+    background-color: transparent;
+    border: 2px solid #bebfc0;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border-radius: 0.25rem;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.about main .row .col-4 .item:hover{
+    transform: translateY(-0.5rem);
+}
+
+.about main .row .col-4 .item:hover .text{
+    transform: translateY(0);
+    background-image: linear-gradient(to bottom, transparent, rgba(44, 142, 222, 0.7), rgba(44, 142, 222, 1));
+    padding-top: 15rem;
+    opacity: 1;
+}
+
+.about main .row .col-4 .item:hover .text button{
+    opacity: 1;
+    margin-bottom: 3rem;
+}
+
+.about main .row .col-4 .item:hover .text button:hover{
+    background-color: #0066ff;
+    color: #ffffff;
+    border: 2px solid #0066ff;
+    transform: translateY(-0.4rem);
+}
+
+.about main .row .col-4 .item:hover img{
+    transform: scale(1.1);
 }
