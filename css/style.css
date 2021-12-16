@@ -628,6 +628,97 @@ svg {
   width: 100%;
 }
 
+/* ideal jobs */
+.idealJob{
+    background-image: linear-gradient(
+        to right,
+        rgba(235, 235, 235, 0.918),
+        rgba(44, 142, 222, 0.3),
+        rgba(44, 142, 222, 0.6)
+      );
+      padding: 4rem 0;
+}
+
+.idealJob .container header{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.idealJob .container header h1{
+    font-size: 3rem;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+  color: transparent;
+}
+
+.idealJob .container header p{
+    font-size: 1rem;
+    font-weight: 650;
+    text-align: center;
+}
+
+.idealJob main{
+    margin-bottom: 5rem;
+}
+
+.idealJob main .list .item{
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 10px 2px 20px rgba(0, 0, 0, 0.3) ;
+}
+
+.idealJob main .list .item .content{
+    position: relative;
+}
+
+.idealJob main .list .item .content img{
+    width: 100%;
+    height: 500px;
+}
+
+.idealJob main .list .item .content .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 198, 255, 0.8);
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s linear 0s;
+}
+
+.idealJob main .list .item .content:hover .details{
+    opacity: 1;
+    visibility: visible;
+}
+
+.idealJob main .list .item .content .details .info p{
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: justify
+}
+
+.idealJob main .list .item .content .details .info h1{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.idealJob p{
+    font-size: 1rem;
+    font-weight: 650;
+    text-align: center;
+}
+
+
 /* footer */
 .footer {
   background-image: linear-gradient(
