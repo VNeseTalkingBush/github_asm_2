@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 /* web scroll */
 html {
   scroll-behavior: smooth;
@@ -25,7 +27,6 @@ html {
 }
 
 /* break part */
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
 svg {
   display: block;
   font: 10.5em "Montserrat";
@@ -77,7 +78,8 @@ svg {
 }
 
 .header {
-  position: absolute;
+  background-color: rgb(150, 207, 253);
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
@@ -104,7 +106,7 @@ svg {
   padding: 1rem 0.5rem;
   transition: all 0.5s;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .header .navbar-nav .nav-item a:hover {
