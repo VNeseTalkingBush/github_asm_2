@@ -108,15 +108,7 @@ html {
 
 /* carousel */
 .slide .carousel-inner .carousel-item{
-    position: relative;
-    height: 51.8rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.slide .carousel-inner .carousel-item{
-    height: 713px;
+    height: 49.5rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -150,7 +142,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .slide .carousel-inner .carousel-caption{
@@ -373,11 +365,8 @@ html {
     color: transparent;
 }
 
-.member .container .row .col-6.introduce{
-    padding-left: 5rem;
-}
 
-.member .container .row .col-6.introduce .introduction .tab-content .tab-pane .text{
+.member .container main .row .col-6.introduce .introduction .tab-content .tab-pane .text{
     color: #000000;
     font-size: 1rem;
     font-weight: 600;
@@ -385,34 +374,34 @@ html {
     text-align: justify;
 }
 
-.member .container .row .col-6.introduce .introduction .tab-content .tab-pane p span{
+.member .container main .row .col-6.introduce .introduction .tab-content .tab-pane p span{
     color: #0066ff;
     font-weight: 800;
 }
 
-.member .container .row .col-6.introduce .introduction .tab-content .tab-pane p{
+.member .container main .row .col-6.introduce .introduction .tab-content .tab-pane p{
     color: #a1a2a3;
     font-size: 1rem;
     font-weight: 700;
 }
 
-.member .container .row .col-6.image .name{
+.member .container main .row .col-6.image .name{
     margin: 0;
 }
 
-.member .container .row .col-6.image .name .nav{
+.member .container main .row .col-6.image .name .nav{
     align-items: center;
     justify-content: center;
     max-width: 90%;
 }
 
-.member .container .row .col-6.image .name .nav .nav-item a{
+.member .container main .row .col-6.image .name .nav .nav-item a{
     padding: 0;
     margin: 0.75rem;
     transition: all 0.5s;
 }
 
-.member .container .row .col-6.image .name .nav .nav-item img{
+.member .container main .row .col-6.image .name .nav .nav-item img{
     width: 100%;
     height: 10rem;
     border-radius: 5px;
@@ -420,13 +409,13 @@ html {
 }
 
 
-.member .container .row .col-6.image .name .nav .nav-item a.active{
+.member .container main .row .col-6.image .name .nav .nav-item a.active{
     background-color: transparent;
     transform: scale(1.1);
     box-shadow: 0px 8px 8px 0 rgba(0,0,0,0.2)
 }
 
-.member .container .row .col-6.image .name .nav .nav-item a.active img{
+.member .container main .row .col-6.image .name .nav .nav-item a.active img{
     opacity: 1;
 }
 
@@ -461,6 +450,7 @@ html {
     color: #0066ff;
     font-weight: 700;
     font-size: 1.3rem;
+    transition: all 0.5s;
 }
 
 .teamProfile .container main .row .profile-navbar .nav a.active{
@@ -480,4 +470,177 @@ html {
 
 .teamProfile .container main .row .details .tab-content .tab-pane .image img{
     width: 100%;
+}
+
+/* footer */
+.footer{
+    background-image: linear-gradient(to right, rgba(13, 30, 83, 0.918), rgba(11, 28, 78, 0.918), rgba(6, 16, 44, 0.918));
+}
+
+.footer .container header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0 3rem;
+}
+
+.footer .container header h1{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer .container hr{
+    width: 100%;
+    size: 1rem;
+    opacity: 1;
+}
+
+.footer main{
+    padding: 3rem 0;
+}
+
+.footer main .row{
+    font-weight: 650;
+}
+
+.footer main .row .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10rem;
+}
+
+.footer main .row .logo img{
+    width: 12rem;
+    height: 5em;
+    margin-bottom: 5rem;
+}
+
+.footer main .row .logo p{
+    font-size: 1rem;
+    color: #a3a2a2;
+    padding-right: 8rem;
+    line-height: 2rem;
+}
+
+.footer main .row .logo p span{
+    position: relative;
+}
+
+.footer main .row .logo p a{
+    text-decoration: none;
+    color: #a3a2a2;
+    transition: all 0.5s;
+}
+
+.footer main .row .logo p span::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #1C99FE, #7644FF, #fd4766);;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.footer main .row .logo p span:hover::after{
+    width: 100%;
+}
+
+.footer main .row .logo p span:hover a{
+    color: rgba(44, 142, 222, 1);
+}
+
+.footer main .row .link h3{
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+.footer main .row .link ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer main .row .link ul li a{
+    text-decoration: none;
+    color: #a3a2a2;
+    line-height: 2rem;
+    font-size: 1rem;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.footer main .row .link ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #1C99FE, #7644FF, #fd4766);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.footer main .row .link ul li a:hover::after{
+    width: 100%;
+}
+
+.footer main .row .link ul li a:hover{
+    color: rgba(44, 142, 222, 1);
+}
+
+.footer main .row .contact h3{
+    font-size: 1.25rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+.footer main .row .contact p{
+    color: #a3a2a2;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.footer main .row .contact p span{
+    position: relative;
+}
+
+.footer main .row .contact p a{
+    text-decoration: none;
+    color: #a3a2a2;
+    transition: all 0.5s;
+}
+
+.footer main .row .contact p a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #1C99FE, #7644FF, #fd4766);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.footer main .row .contact p a:hover::after{
+    width: 100%;
+}
+
+.footer main .row .contact p a:hover{
+    color: rgba(44, 142, 222, 1);
+}
+
+.footer main .row .fa{
+    color: rgba(198, 201, 216, 0.75);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer main .row h3:hover .fa{
+    transform: translateY(-0.3rem);
+    color: #ffffff;
 }
