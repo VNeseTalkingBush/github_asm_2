@@ -300,21 +300,22 @@ svg {
     rgba(44, 142, 222, 1)
   );
   padding-bottom: 7rem;
+  margin-top: 4rem;
 }
 
 .about header {
-    text-align: center;
-    padding: 3rem 0;
-  }
-  
-  .about header h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
-    color: transparent;
-  }
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.about header h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+  color: transparent;
+}
 
 .about .container main .row .image img {
   width: 100%;
@@ -337,9 +338,9 @@ svg {
 }
 
 .about .container main .row .text p {
-    font-size: 1rem;
-    font-weight: 650;
-    text-align: justify;
+  font-size: 1rem;
+  font-weight: 650;
+  text-align: justify;
 }
 
 /* our team */
@@ -364,7 +365,7 @@ svg {
 }
 
 .team header h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 800;
   -webkit-background-clip: text;
   background-clip: text;
@@ -546,7 +547,7 @@ svg {
 
 .member .container main .row .col-6.image .name .nav .nav-item img {
   width: 100%;
-  height: 10rem;
+  height: 15rem;
   border-radius: 5px;
   opacity: 0.5;
 }
@@ -572,9 +573,6 @@ svg {
 }
 
 .teamProfile .container {
-  background-image: url(../image/image-1.png);
-  background-repeat: no-repeat;
-  background-position-y: 7rem;
   padding-bottom: 4rem;
 }
 
@@ -629,23 +627,23 @@ svg {
 }
 
 /* ideal jobs */
-.idealJob{
-    background-image: linear-gradient(
-        to right,
-        rgba(235, 235, 235, 0.918),
-        rgba(44, 142, 222, 0.3),
-        rgba(44, 142, 222, 0.6)
-      );
-      padding: 4rem 0;
+.idealJob {
+  background-image: linear-gradient(
+    to right,
+    rgba(235, 235, 235, 0.918),
+    rgba(44, 142, 222, 0.3),
+    rgba(44, 142, 222, 0.6)
+  );
+  padding: 4rem 0;
 }
 
-.idealJob .container header{
-    text-align: center;
-    margin-bottom: 5rem;
+.idealJob .container header {
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
-.idealJob .container header h1{
-    font-size: 3rem;
+.idealJob .container header h1 {
+  font-size: 3rem;
   font-weight: 800;
   -webkit-background-clip: text;
   background-clip: text;
@@ -653,71 +651,221 @@ svg {
   color: transparent;
 }
 
-.idealJob .container header p{
-    font-size: 1rem;
-    font-weight: 650;
-    text-align: center;
+.idealJob .container header p {
+  font-size: 1rem;
+  font-weight: 650;
+  text-align: center;
 }
 
-.idealJob main{
-    margin-bottom: 5rem;
+.idealJob main {
+  margin-bottom: 5rem;
 }
 
-.idealJob main .list .item{
-    padding: 0 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 10px 2px 20px rgba(0, 0, 0, 0.3) ;
+.idealJob main .list .item {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 10px 2px 20px rgba(0, 0, 0, 0.3);
 }
 
-.idealJob main .list .item .content{
-    position: relative;
+.idealJob main .list .item .content {
+  position: relative;
 }
 
-.idealJob main .list .item .content img{
-    width: 100%;
-    height: 500px;
+.idealJob main .list .item .content img {
+  width: 100%;
+  height: 500px;
 }
 
-.idealJob main .list .item .content .details{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(128, 198, 255, 0.8);
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s linear 0s;
+.idealJob main .list .item .content .details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 198, 255, 0.8);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s linear 0s;
 }
 
-.idealJob main .list .item .content:hover .details{
-    opacity: 1;
-    visibility: visible;
+.idealJob main .list .item .content:hover .details {
+  opacity: 1;
+  visibility: visible;
 }
 
-.idealJob main .list .item .content .details .info p{
-    color: #000000;
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-align: justify
+.idealJob main .list .item .content .details .info p {
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: justify;
 }
 
-.idealJob main .list .item .content .details .info h1{
-    color: #ffffff;
-    font-size: 2rem;
-    font-weight: 800;
+.idealJob main .list .item .content .details .info h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 800;
 }
 
-.idealJob p{
-    font-size: 1rem;
-    font-weight: 650;
-    text-align: center;
+.idealJob p {
+  font-size: 1rem;
+  font-weight: 650;
+  text-align: center;
 }
 
+/* it works */
+.itWork {
+  background-image: linear-gradient(
+    to right,
+    rgba(253, 201, 221, 0.918),
+    rgba(188, 85, 248, 0.3),
+    rgba(44, 142, 222, 0.6)
+  );
+  margin-top: 4rem;
+  padding-top: 3rem;
+}
+
+.itWork .container {
+  padding-bottom: 4rem;
+}
+
+.itWork .container header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.itWork .container header h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+  color: transparent;
+}
+/* it works - research */
+.itWork .container main .research header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+  color: transparent;
+}
+
+.itWork .container main .research main .nav-item .nav-link img {
+  width: 150px;
+  height: 100px;
+  border-radius: 100%;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.itWork .container main .research main .nav-item .nav-link.active {
+  background-color: transparent;
+}
+
+.itWork .container main .research main .nav-item .nav-link.active img {
+  opacity: 1;
+  border: 5px solid transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(57, 0, 90, 0.8),
+    rgba(2, 0, 121, 0.8)
+  );
+}
+
+.itWork .container main .research main .tab-content {
+  margin: 5rem 0;
+}
+
+.itWork
+  .container
+  main
+  .research
+  main
+  .tab-content
+  .tab-pane
+  .content
+  header
+  h1 {
+  font-size: 1.5rem;
+}
+
+.itWork
+  .container
+  main
+  .research
+  main
+  .tab-content
+  .tab-pane
+  .content
+  header
+  p {
+  font-weight: 700;
+}
+
+.itWork
+  .container
+  main
+  .research
+  main
+  .tab-content
+  .tab-pane
+  .content
+  header
+  span {
+  color: rgba(67, 0, 253, 0.74);
+  font-weight: 700;
+}
+
+.itWork .container main .research main .tab-content .tab-pane .content main {
+  text-align: justify;
+}
+
+.itWork .container main .research main .tab-content .tab-pane .content main h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.itWork .container main .research main .tab-content .tab-pane .content main p{
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+/* it works - interview */
+.itWork .container main .interview header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+  color: transparent;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+.itWork .container main .interview header p{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.itWork .container main .interview main{
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.itWork .container main .interview main h3{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.itWork .container main .interview main p{
+  font-size: 1rem;
+  font-weight: 550;
+}
 
 /* footer */
 .footer {
@@ -727,6 +875,7 @@ svg {
     rgba(11, 28, 78, 0.918),
     rgba(6, 16, 44, 0.918)
   );
+  margin-top: 4rem;
 }
 
 .footer .container header {
@@ -904,8 +1053,12 @@ svg {
   }
 }
 
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
   }
+  to {
+    width: 100%;
+  }
+}
