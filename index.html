@@ -134,16 +134,16 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#security"
+                <a onclick="security()" class="dropdown-item" href="#security"
                   >Cybersecurity and privacy</a
                 >
-                <a class="dropdown-item" href="#ai"
-                  >Artificial intelligence and machine learning</a
-                >
-                <a class="dropdown-item" href="#smallComputingDevice"
+                <a onclick="small()" class="dropdown-item" href="#smallComputingDevice"
                   >Small computing devices</a
                 >
-                <a class="dropdown-item" href="#blockchain"
+                <a onclick="ai()" class="dropdown-item" href="#ai"
+                  >Artificial intelligence and machine learning</a
+                >
+                <a onclick="blockchain()" class="dropdown-item" href="#blockchain"
                   >Blockchain and cryptocurrencies</a
                 >
               </div>
@@ -499,7 +499,7 @@
                         aria-controls="pills-home"
                         aria-selected="true"
                       >
-                        <img src="./image/Quy-potrait.JPG" alt="" />
+                        <img src="./image/Quy-potrait.png" alt="" />
                       </a>
                     </li>
                     <li class="col-6 nav-item" role="presentation">
@@ -512,7 +512,7 @@
                         aria-controls="pills-profile"
                         aria-selected="false"
                       >
-                        <img src="./image/Giang-portrait.jpg" alt="" />
+                        <img src="./image/Giang-portrait.png" alt="" />
                       </a>
                     </li>
                     <li class="col-6 nav-item" role="presentation">
@@ -525,7 +525,7 @@
                         aria-controls="pills-contact"
                         aria-selected="false"
                       >
-                        <img src="./image/Duc-portrait.jpg" alt="" />
+                        <img src="./image/Duc-portrait.png" alt="" />
                       </a>
                     </li>
                     <li class="col-6 nav-item" role="presentation">
@@ -538,7 +538,7 @@
                         aria-controls="pills-contact"
                         aria-selected="false"
                       >
-                        <img src="./image/Thang-portrait.jpg" alt="" />
+                        <img src="./image/Thang-portrait.png" alt="" />
                       </a>
                     </li>
                   </ul>
@@ -1250,7 +1250,7 @@
                     <a class="nav-link active"
                           id="security"
                           data-toggle="pill"
-                          href="#pills-secuirity"
+                          href="#pills-security"
                           role="tab"
                           aria-controls="pills-security"
                           aria-selected="true"
@@ -1303,9 +1303,9 @@
                     <!-- security -->
                     <div
                       class="tab-pane fade show active"
-                      id="pills-secuirity"
+                      id="pills-security"
                       role="tabpanel"
-                      aria-labelledby="pills-secuirity-tab"
+                      aria-labelledby="pills-security-tab"
                     >
                       <h1>Cybersecurity and Privacy</h1>
                       <p>In the time of technology development, networking is increasingly common and becomes important to people in daily life. They share themselves on social media like Facebook. In companies,  they use the internet for controlling the system and storing data. Due to this, they easily become targets of cyber attacks. Hence, there is a need of the security for networking to prevent violations of the access from cyber threats.</p>
@@ -1481,7 +1481,7 @@
     </svg>
 
     <!-- footer -->
-    <footer class="footer">
+    <footer id="contact" class="footer">
       <div class="container">
         <header>
           <h1>Let's step into the world of Information Technology!</h1>
@@ -1513,15 +1513,15 @@
               <h3>Contact Us <i class="fa fa-envelope"></i></h3>
               <p>
                 Email: <br />
-                Trinh Viet Quy: <span><a href="">s3915202@rmit.edu.vn</a></span
+                Trinh Viet Quy: <span><a href="mailto: s3915202@rmit.edu.vn ">s3915202@rmit.edu.vn</a></span
                 ><br />
                 Nguyen Thi Ha Giang:
-                <span><a href="">s3914108@rmit.edu.vn</a></span
+                <span><a href="mailto: s3914108@rmit.edu.vn ">s3914108@rmit.edu.vn</a></span
                 ><br />
-                Tran Khanh Duc: <span><a href="">s3907087@rmit.edu.vn</a></span
+                Tran Khanh Duc: <span><a href="mailto: s3907087@rmit.edu.vn">s3907087@rmit.edu.vn</a></span
                 ><br />
                 Nguyen Tuan Thang:
-                <span><a href="">s3877039@rmit.edu.vn</a></span>
+                <span><a href="mailto: s3877039@rmit.edu.vn ">s3877039@rmit.edu.vn</a></span>
               </p>
             </div>
           </div>

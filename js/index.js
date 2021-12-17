@@ -18,6 +18,71 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+// control navbar it-technologies
+function security(){
+  // active
+  document.getElementById('security').className = 'nav-link active'
+  document.getElementById('pills-security').className = 'tab-pane fade show active'
+
+  // deactive
+  document.getElementById('smallComputingDevice').className = 'nav-link'
+  document.getElementById('pills-smallComputingDevice').className = 'tab-pane fade'
+
+  document.getElementById('ai').className = 'nav-link'
+  document.getElementById('pills-ai').className = 'tab-pane fade'
+
+  document.getElementById('blockchain').className = 'nav-link'
+  document.getElementById('pills-blockchain').className = 'tab-pane fade'
+}
+
+function small(){
+  // active
+  document.getElementById('smallComputingDevice').className = 'nav-link active'
+  document.getElementById('pills-smallComputingDevice').className = 'tab-pane fade show active'
+
+  // deactive
+  document.getElementById('security').className = 'nav-link'
+  document.getElementById('pills-security').className = 'tab-pane fade'
+
+  document.getElementById('ai').className = 'nav-link'
+  document.getElementById('pills-ai').className = 'tab-pane fade'
+
+  document.getElementById('blockchain').className = 'nav-link'
+  document.getElementById('pills-blockchain').className = 'tab-pane fade'
+}
+
+function ai(){
+  // active
+  document.getElementById('ai').className = 'nav-link active'
+  document.getElementById('pills-ai').className = 'tab-pane fade show active'
+
+  // deactive
+  document.getElementById('security').className = 'nav-link'
+  document.getElementById('pills-security').className = 'tab-pane fade'
+
+  document.getElementById('smallComputingDevice').className = 'nav-link'
+  document.getElementById('pills-smallComputingDevice').className = 'tab-pane fade'
+
+  document.getElementById('blockchain').className = 'nav-link'
+  document.getElementById('pills-blockchain').className = 'tab-pane fade'
+}
+
+function blockchain(){
+  // active
+  document.getElementById('blockchain').className = 'nav-link active'
+  document.getElementById('pills-blockchain').className = 'tab-pane fade show active'
+
+  // deactive
+  document.getElementById('security').className = 'nav-link'
+  document.getElementById('pills-security').className = 'tab-pane fade'
+
+  document.getElementById('ai').className = 'nav-link'
+  document.getElementById('pills-ai').className = 'tab-pane fade'
+
+  document.getElementById('smallComputingDevice').className = 'nav-link'
+  document.getElementById('pills-smallComputingDevice').className = 'tab-pane fade'
+}
+
 // light on - off
 function turnOff(){
   var off = document.getElementById("light")
