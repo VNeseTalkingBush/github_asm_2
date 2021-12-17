@@ -867,6 +867,94 @@ svg {
   font-weight: 550;
 }
 
+/* IT technologies */
+.itTechnologies{
+  background-image: linear-gradient(
+    to right,
+    rgba(207, 247, 195, 0.74),
+    rgba(129, 252, 235, 0.3),
+    rgba(44, 151, 222, 0.6)
+  );
+  margin-top: 4rem;
+  padding-top: 3rem;
+}
+
+.itTechnologies .container {
+  padding-bottom: 4rem;
+}
+
+.itTechnologies .container header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.itTechnologies .container header h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+  color: transparent;
+}
+
+.itTechnologies .container header{
+  margin-bottom: 2.5rem;
+}
+
+.itTechnologies .container main .navbar{
+  padding: 0;
+  border: 2px solid #000000;
+  justify-content: center;
+  border-radius: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.itTechnologies .container main .navbar .nav .nav-item a{
+  padding: 0.75rem 2rem;
+  border-radius: 5rem;
+  color: #000000;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.itTechnologies .container main .navbar .nav .nav-item .nav-link.active{
+  color: #ffffff;
+  background-image: linear-gradient(to right, #ffffff4f, #000ba1ad) ;
+}
+
+.itTechnologies .container main .tab-content{
+  text-align: justify;
+}
+
+.itTechnologies .container main .tab-content h1{
+  font-size: 3rem;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+  color: transparent;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.itTechnologies .container main .tab-content h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.itTechnologies .container main .tab-content p{
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.itTechnologies .container main .tab-content img{
+  width: 100%;
+  margin: 2rem 0;
+  padding: 0 10rem;
+}
+
 /* footer */
 .footer {
   background-image: linear-gradient(
