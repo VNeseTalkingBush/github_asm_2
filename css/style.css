@@ -955,6 +955,68 @@ svg {
   padding: 0 10rem;
 }
 
+/* project idea */
+.projectIdea{
+  margin-top: 4rem;
+  background-image: linear-gradient(to bottom, #000000, #000957, #020072a6);
+  padding: 4rem 0;
+}
+
+.projectIdea .container header h1{
+    font-size: 5rem;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+    color: transparent;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.projectIdea .container header p{
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #008cff;
+  animation: typing 3s steps(40, end) infinite;
+}
+
+.projectIdea .container main .light{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.projectIdea .container main .light .light-image{
+  width: 7rem;
+  margin-right: 3rem;
+}
+
+.projectIdea .container main .content{
+  opacity: 0;
+}
+
+.projectIdea .container main .content p{
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: justify;
+  line-height: 1.75rem;
+}
+
+.projectIdea .container main .content h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.projectIdea .container main .content ul li{
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: justify;
+  line-height: 1.75rem;
+}
+
 /* footer */
 .footer {
   background-image: linear-gradient(
