@@ -85,7 +85,7 @@ function blockchain(){
 
 // light on - off
 function turnOff(){
-  document.getElementById('light').src ='/image/light-off.png'
+  document.getElementById('light').src ='./image/light-off.png'
 
   document.getElementById("btnOff").className = "btn btn-danger active-button"
 
@@ -99,7 +99,7 @@ function turnOff(){
 }
 
 function turnOn(){
-  document.getElementById('light').src ='/image/light-on.png'
+  document.getElementById('light').src ='./image/light-on.png'
 
   document.getElementById("btnOn").className = "btn btn-success active-button"
 
