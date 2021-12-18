@@ -862,6 +862,16 @@ svg {
   font-weight: 700;
 }
 
+.itWork .container main .interview main h1{
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 4rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #350000, #ff0000);
+  color: transparent;
+}
+
 .itWork .container main .interview main p{
   font-size: 1rem;
   font-weight: 550;

@@ -85,14 +85,11 @@ function blockchain(){
 
 // light on - off
 function turnOff(){
-  var off = document.getElementById("light")
-  off.src = "/image/light-off.png"
+  document.getElementById("light").src = "/image/light-off.png"
 
-  var btnOff = document.getElementById("btnOff")
-  btnOff.className = "btn btn-danger active-button"
+  document.getElementById("btnOff").className = "btn btn-danger active-button"
 
-  var btnOn = document.getElementById("btnOn")
-  btnOn.className = "btn btn-success"
+  document.getElementById("btnOn").className = "btn btn-success"
 
   document.getElementById('projectIdea').style.backgroundImage = 'linear-gradient(to bottom, #000000, #000957, #020072a6)'
 
@@ -102,14 +99,11 @@ function turnOff(){
 }
 
 function turnOn(){
-  var on = document.getElementById("light")
-  on.src = "/image/light-on.png"
+  document.getElementById("light").src = "/image/light-on.png"
 
-  var btnOn = document.getElementById("btnOn")
-  btnOn.className = "btn btn-success active-button"
+  document.getElementById("btnOn").className = "btn btn-success active-button"
 
-  var btnOff = document.getElementById("btnOff")
-  btnOff.className = "btn btn-danger"
+  document.getElementById("btnOff").className = "btn btn-danger"
 
   document.getElementById('projectIdea').style.backgroundImage = 'linear-gradient(to bottom, #000d49, #bbc900, #e8ff64fa)'
 
