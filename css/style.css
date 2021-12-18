@@ -1000,8 +1000,23 @@ svg {
 }
 
 .projectIdea .container main .light .light-image{
+  position: relative;
+}
+
+.projectIdea .container main .light .light-image img{
   width: 7rem;
   margin-right: 3rem;
+  position: absolute;
+  top: 2rem;
+  left: 20rem;
+}
+
+.projectIdea .container main .light .light-image .lightOn{
+  opacity: 0;
+}
+
+.projectIdea .container main .light .button{
+  padding-top: 10rem;
 }
 
 .projectIdea .container main .content{

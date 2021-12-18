@@ -1475,9 +1475,14 @@
         </header>
         <main>
           <div class="light">
-            <img id="light"  class="light-image" src="./image/light-on.png" alt="">
-            <button onclick="turnOn()" id="btnOn" class="btn btn-success btn-on">On</button>
-            <button onclick="turnOff()" id="btnOff" class="btn btn-danger btn-off">Off</button>
+            <div class="light-image">
+              <img id = "light-off" class="lightOff" src="./image/light-off.png" alt="">
+              <img id = "light-on" class="lightOn" src="./image/light-on.png" alt="">
+            </div>
+            <div class="button">
+              <button onclick="turnOn()" id="btnOn" class="btn btn-success btn-on">On</button>
+              <button onclick="turnOff()" id="btnOff" class="btn btn-danger btn-off">Off</button>
+            </div>
           </div>
           <div id="content" class="content">
             <p>For some people, time is as value as gold. There is always too much work to do but too little time to spare. Understand this difficulty, our team aim to design a virtual assistant which can help the users with doing tasks as well as enhancing workflow. Despite the concept of virtual assistant is not new, in fact, it appeared as soon as the 1980s. However, what distinguish our product to others available today such as Cortana or Siri is that we aim to create a self-learning assistant, who can gather information, analyze them and alter the algorithms accordingly. What’s more is that most of the virtual assistant today do not support Vietnamese language, which make it hard for Vietnamese people who do not know English have hard time using them. Similar to others assistant, to maximize the convenience for the users, our assistant will be able to communicate with users by voice input and can answer them within the accessible data. <br>
