@@ -1064,6 +1064,23 @@ svg {
   line-height: 1.75rem;
 }
 
+.feedback{
+  margin-top: 4rem;
+  background-image: linear-gradient(to right, #8264b380, #7830a85d, #00093da6);
+  padding: 4rem 0;
+}
+
+.feedback .container header h1{
+    font-size: 5rem;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #006ec9, #5f27f8, #f71b3f);
+    color: transparent;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 /* footer */
 .footer {
   background-image: linear-gradient(
